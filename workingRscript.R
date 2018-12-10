@@ -1,3 +1,15 @@
+#Goal: Investigators use open ended terms to describe their clinical trials on clinicaltrials.gov.
+#Here, we consider preparing two versions of investigator originated semantic trial 
+#naming for consistency. We consider naming conventions in 'key words' and clinical 'conditions' 
+#for hiv and aids like trials. We also connect four study data sets to h20.ai analysis 
+#cluster to attempt to predict investigator originated semantic trial naming where high 
+#prediction (true positive) means investigators use semantic trial names in 
+#a non-random way #because true positive key words and conditions can be learned from 
+#other trial feature item responses on clinicaltrials.gov. Low prediction (false positive)
+#means the trial features 
+#look more like the trial features of trials with different investigator originated 
+#semantic trial terms. 
+
 #1a. Install db package
 install.packages("RPostgreSQL")
 #1b.Call db package
