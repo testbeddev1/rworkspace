@@ -10,7 +10,8 @@
 #look more like the trial features of trials with different investigator originated 
 #semantic trial terms. 
 
-#1a. Install db package
+#1a. Install db package 
+#it may work better to instal RpostgreSQL from R studio under Packages//Install... not sure why...
 install.packages("RPostgreSQL")
 #1b.Call db package
 library(RPostgreSQL)
